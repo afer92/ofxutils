@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from ofxutils.ofxutils import *
+from ofxutils.ofxtools import *
 
 def main():
     def test(ofx):
