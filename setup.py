@@ -9,7 +9,7 @@ setup(name = 'ofxutils',
 	keywords = 'ofx ofc qif utilities',
 	description = 'Provide tools for financial file parsing and conversion.',
 	license = 'GNU General Public License (GPL)',
-	packages = ['ofxtools'],
+	packages = ['ofxutils'],
 	install_requires = ['BeautifulSoup'],
 	
 	classifiers = [

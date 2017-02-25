@@ -1,0 +1,195 @@
+<OFC>
+  <DTD>2
+  <CPAGE>1252
+  <ACCTSTMT>
+   <ACCTFROM>
+     <BANKID>30000
+     <BRANCHID>01800
+     <ACCTID>0400000
+     <ACCTTYPE>0
+   </ACCTFROM>
+   <STMTRS>
+     <DTSTART>20111227
+     <DTEND>20120203
+     <LEDGER>0
+       <STMTTRN>
+         <TRNTYPE>1
+         <DTPOSTED>20111227
+         <TRNAMT>-150.00
+         <FITID>92D01EF 7EFA0D55 00000000 20111227 -15000
+         <CHKNUM>Carte
+         <NAME>BANQUE
+         <MEMO> CB  RETRAIT DU  27/12
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20111227
+         <TRNAMT>-41.50
+         <FITID>93D0200 BAC30FBA 00000000 20111227 -4150
+         <CHKNUM>Virement
+         <NAME>BANQUE
+         <MEMO>VIR.PERMANENT DUPOND
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20111227
+         <TRNAMT>-134.05
+         <FITID>85401BC D9701009 00000000 20111227 -13405
+         <CHKNUM>Prlvement
+         <NAME>PRLV ORANGE FRANCE SA
+         <MEMO>PRLV ORANGE FRANCE SA
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>0
+         <DTPOSTED>20111227
+         <TRNAMT>300.00
+         <FITID>82001B5 5E200641 00000000 20111227 30000
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20111228
+         <TRNAMT>-190.00
+         <FITID>91501ED 9DDC081B 00000000 20111228 -19000
+         <CHKNUM>5959017
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>1
+         <DTPOSTED>20111228
+         <TRNAMT>-250.00
+         <FITID>8D501E3 7F4C0D58 00000000 20111228 -25000
+         <CHKNUM>Carte
+         <NAME>BANQUE
+         <MEMO> CB  RETRAIT DU  28/12
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20111228
+         <TRNAMT>5706.48
+         <FITID>81001C7 403E11E6 00000000 20111228 570648
+         <CHKNUM>Virement
+         <NAME>VIR AUTOMOBI
+         <MEMO>VIR AUTOMOBI
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20111228
+         <TRNAMT>-1745.00
+         <FITID>8FD01EC A5DE084C 00000000 20111228 -174500
+         <CHKNUM>8114862
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20111229
+         <TRNAMT>-491.04
+         <FITID>85101BB 9E320820 00000000 20111229 -49104
+         <CHKNUM>8114864
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>0
+         <DTPOSTED>20111229
+         <TRNAMT>500.00
+         <FITID>88F01CE 5E4C0645 00000000 20111229 50000
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>1
+         <DTPOSTED>20111230
+         <TRNAMT>-5135.12
+         <FITID>89F01D9 6AA506A7 00000000 20111230 -513512
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120102
+         <TRNAMT>-499.00
+         <FITID>8B901D4 9DA60819 00000000 20120102 -49900
+         <CHKNUM>8114863
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120102
+         <TRNAMT>-2.80
+         <FITID>86601DC 57B611FB 00000000 20120102 -280
+         <CHKNUM>Prlvement
+         <NAME>ABONNEMENT
+         <MEMO>ABONNEMENT
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120103
+         <TRNAMT>-64.00
+         <FITID>8E301E1 9DD20F37 00000000 20120103 -6400
+         <CHKNUM>Prlvement
+         <NAME>PRLV ANNUEL
+         <MEMO>PRLV ANNUEL
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120103
+         <TRNAMT>-74.40
+         <FITID>90701F4 9E7E0F3C 00000000 20120103 -7440
+         <CHKNUM>Prlvement
+         <NAME>PRLV ANNUEL
+         <MEMO>PRLV ANNUEL
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120103
+         <TRNAMT>11.10
+         <FITID>6530184 7791095 00000000 20120103 1110
+         <CHKNUM>Virement
+         <NAME>VIR SEINE
+         <MEMO>VIR SEINE
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120105
+         <TRNAMT>-9.00
+         <FITID>88501ED 92A20EFF 00000000 20120105 -900
+         <CHKNUM>Prlvement
+         <NAME>PRLV SAS
+         <MEMO>PRLV SAS
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120105
+         <TRNAMT>-39.90
+         <FITID>8DE01E1 CE140F97 00000000 20120105 -3990
+         <CHKNUM>Prlvement
+         <NAME>PRLV CABLE (02)
+         <MEMO>PRLV CABLE (02)
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>8
+         <DTPOSTED>20120105
+         <TRNAMT>-16.72
+         <FITID>8D501E9 BD130F9B 00000000 20120105 -1672
+         <CHKNUM>Prlvement
+         <NAME>PRLV HEBDO
+         <MEMO>PRLV HEBDO
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>1
+         <DTPOSTED>20120106
+         <TRNAMT>-200.00
+         <FITID>8C401DD 7DB20D48 00000000 20120106 -20000
+         <CHKNUM>Carte
+         <NAME>BANQUE
+         <MEMO> CB  RETRAIT DU  06/01
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>0
+         <DTPOSTED>20120106
+         <TRNAMT>300.00
+         <FITID>90001ED 5DED063D 00000000 20120106 30000
+       </STMTTRN>
+       <STMTTRN>
+         <TRNTYPE>1
+         <DTPOSTED>20120129
+         <TRNAMT>-35.90
+         <FITID>80501C7 72310DF2 00000000 20120129 -3590
+         <CHKNUM>Carte
+         <NAME>CASINO
+         <MEMO>CASINO
+       </STMTTRN>
+   </STMTRS>
+  </ACCTSTMT>
+</OFC>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?OFX OFXHEADER="200" VERSION="201" SECURITY="NONE" OLDFILEUID="NONE" NEWFILEUID="NONE"?>
+<?xml-stylesheet type="text/xsl" href="ofx.xsl"?>
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+      </STATUS>
+      <DTSERVER>20120205102702</DTSERVER>
+      <LANGUAGE>FRE</LANGUAGE>
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>101</TRNUID>
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+      </STATUS>
+      <STMTRS>
+        <CURDEF>EUR</CURDEF>
+        <BANKACCTFROM>
+          <BANKID>30000</BANKID>
+          <BRANCHID>01800</BRANCHID>
+          <ACCTID>0400000</ACCTID>
+          <ACCTTYPE>CHECKING</ACCTTYPE>
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20111227</DTSTART>
+          <DTEND>20120203</DTEND>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20111227</DTPOSTED>
+            <TRNAMT>-150.00</TRNAMT>
+            <FITID>92D01EF 7EFA0D55 00000000 20111227 -15000</FITID>
+            <CHECKNUM>Carte</CHECKNUM>
+            <NAME>BANQUE</NAME>
+            <MEMO> CB  RETRAIT DU  27/12</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CHECK</TRNTYPE>
+            <DTPOSTED>20111227</DTPOSTED>
+            <TRNAMT>-41.50</TRNAMT>
+            <FITID>93D0200 BAC30FBA 00000000 20111227 -4150</FITID>
+            <CHECKNUM>Virement</CHECKNUM>
+            <NAME>BANQUE</NAME>
+            <MEMO>VIR.PERMANENT DUPOND</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CHECK</TRNTYPE>
+            <DTPOSTED>20111227</DTPOSTED>
+            <TRNAMT>-134.05</TRNAMT>
+            <FITID>85401BC D9701009 00000000 20111227 -13405</FITID>
+            <CHECKNUM>Prlvement</CHECKNUM>
+            <NAME>PRLV ORANGE FRANCE SA</NAME>
+            <MEMO>PRLV ORANGE FRANCE SA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20111227</DTPOSTED>
+            <TRNAMT>300.00</TRNAMT>
+            <FITID>82001B5 5E200641 00000000 20111227 30000</FITID>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CHECK</TRNTYPE>
+            <DTPOSTED>20111228</DTPOSTED>
+            <TRNAMT>-190.00</TRNAMT>
+            <FITID>91501ED 9DDC081B 00000000 20111228 -19000</FITID>
+            <CHECKNUM>5959017</CHECKNUM>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20111228</DTPOSTED>
+            <TRNAMT>-250.00</TRNAMT>
+            <FITID>8D501E3 7F4C0D58 00000000 20111228 -25000</FITID>
+            <CHECKNUM>Carte</CHECKNUM>
+            <NAME>BANQUE</NAME>
+            <MEMO> CB  RETRAIT DU  28/12</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CHECK</TRNTYPE>
+            <DTPOSTED>20111228</DTPOSTED>
+            <TRNAMT>5706.48</TRNAMT>
+            <FITID>81001C7 403E11E6 00000000 20111228 570648</FITID>
+            <CHECKNUM>Virement</CHECKNUM>
+            <NAME>VIR AUTOMOBI</NAME>
+            <MEMO>VIR AUTOMOBI</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CHECK</TRNTYPE>
+            <DTPOSTED>20111228</DTPOSTED>
+            <TRNAMT>-1745.00</TRNAMT>
+            <FITID>8FD01EC A5DE084C 00000000 20111228 -174500</FITID>
+            <CHECKNUM>8114862</CHECKNUM>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CHECK</TRNTYPE>
+            <DTPOSTED>20111229</DTPOSTED>
+            <TRNAMT>-491.04</TRNAMT>
+            <FITID>85101BB 9E320820 00000000 20111229 -49104</FITID>
+            <CHECKNUM>8114864</CHECKNUM>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20120129</DTPOSTED>
+            <TRNAMT>-35.90</TRNAMT>
+            <FITID>80501C7 72310DF2 00000000 20120129 -3590</FITID>
+            <CHECKNUM>Carte</CHECKNUM>
+            <NAME>CASINO</NAME>
+            <MEMO>CASINO</MEMO>
+          </STMTTRN>
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0</BALAMT>
+          <DTASOF>20120203</DTASOF>
+        </LEDGERBAL>
+        <AVAILBAL>
+          <BALAMT>0</BALAMT>
+          <DTASOF>20120203</DTASOF>
+        </AVAILBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>
