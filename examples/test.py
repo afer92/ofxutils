@@ -14,16 +14,16 @@ def main():
 #        print(teststr)
 #        print('10BC1466', String2Cs(teststr))
          
-    test(OfxParser.parse(file('Test.ofx')))  
+    test(OfxParser.parse(file('test.ofx')))  
     print('===')
-    test(OfxParser.parse(file('Test.ofc')))
+    test(OfxParser.parse(file('test.ofc')))
     print('===')
     ofxroot = OfxRoot('OFX','OFX','object',dtserver='20100205170222',
                       bankid='77777', branchid='00777', acctid='044444B',
                       balamt=123.45, dtasof='20100201170222')
     print(ofxroot.prettyPrint())
     print('===')
-    testqif(QifParser.parse('Test.qif'))  
+    testqif(QifParser.parse('test.qif'))  
 
 if __name__ == '__main__': 
     main()
