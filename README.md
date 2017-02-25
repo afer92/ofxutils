@@ -4,19 +4,19 @@ Parse ofx, ofc and qif files and utilities tools
 ## Installation
 
 ```bash
-pip install ofxtools
+pip install ofxutils
 ```
 ## Get started
 
 ### Import
 
 ```
-from ofxtools.ofxtools import *
+from ofxutils.ofxutils import *
 ```
 ### Parsing example
 
 ```
-from ofxtools.ofxtools import *
+from ofxutils.ofxutils import *
 
 def main():
     def test(ofx):
