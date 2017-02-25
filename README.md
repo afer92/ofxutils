@@ -11,12 +11,12 @@ pip install ofxutils
 ### Import
 
 ```
-from ofxutils.ofxutils import *
+from ofxutils.ofxtools import *
 ```
 ### Parsing example
 
 ```
-from ofxutils.ofxutils import *
+from ofxutils.ofxtools import *
 
 def main():
     def test(ofx):
