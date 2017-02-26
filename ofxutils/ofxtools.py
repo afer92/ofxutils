@@ -6,7 +6,7 @@ __author__  = 'Alain Ferraro'
 __date__    = '2010-02-20'
 
 
-from BeautifulSoup import BeautifulStoneSoup
+from bs4 import BeautifulSoup
 from enumerator import Enum
 import time, datetime, decimal
 import zlib
@@ -1095,7 +1095,7 @@ class OfxParser(object):
     
     @classmethod
     def parse(cls_, file_handle):
-        ofx = BeautifulStoneSoup(file_handle)
+        ofx = BeautifulSoup(file_handle,features = "lxml")
         ofxRoot = OfxRoot('ofx','ofx','object')
                 
         signon_ofx = ofx.find('signonmsgsrsv1')
