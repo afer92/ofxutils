@@ -10,12 +10,11 @@ setup(name = 'ofxutils',
 	description = 'Provide tools for financial file parsing and conversion.',
 	license = 'GNU General Public License (GPL)',
 	packages = ['ofxutils'],
-	install_requires = ['BeautifulSoup'],
+	install_requires = ['BeautifulSoup4','lxml'],
 	
 	classifiers = [
 		'Development Status :: 4 - Beta',
 		'License :: OSI Approved :: GNU General Public License (GPL)',
-		'Programming Language :: Python :: 2',
-		'Programming Language :: Python :: 2.7',
+		'Programming Language :: Python :: 3',
 	],
 )
