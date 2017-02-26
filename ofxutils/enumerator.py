@@ -25,12 +25,12 @@ workdays = WD.irange(WD.Monday,WD.Friday)    # inclusive ranges are better
                                              # equivalent: workdays = WD[1:6]
 for i in WD.each():
     if i in workdays:
-        print i.asInt, i.asString + " is a work day"
+        print(i.asInt, i.asString + " is a work day")
     else:
-        print i.asInt, i.asString + " is a weekend day."
-print "There are ", len(WD), "days per week"
-if "Monday" in WD: print "Monday is a valid name"
-if not "August" in WD: print "August is not"
+        print(i.asInt, i.asString + " is a weekend day.")
+print("There are ", len(WD), "days per week")
+if "Monday" in WD: print("Monday is a valid name")
+if not "August" in WD: print("August is not")
 
 some systematic examples:
 
@@ -132,29 +132,29 @@ if __name__ == '__main__':
     workdays = WD.irange(WD.Monday,WD.Friday)    # inclusive ranges are better
                                                  # for Enums, hence 'irange'
                                                  # equivalent: workdays = WD[1:6]
-    print 'workdays: ', workdays
-    print 'WD[1:6]: ', WD[1:6]
+    print('workdays: ', workdays)
+    print('WD[1:6]: ', WD[1:6])
     for i in WD.each():
         if i in workdays:
-            print i.asInt, i.asString + ' is a work day'
+            print(i.asInt, i.asString + ' is a work day')
         else:
-            print i.asInt, i.asString + ' is a weekend day.'
+            print(i.asInt, i.asString + ' is a weekend day.')
 
-    print 'There are', len(WD), 'days per week'
-    if 'Monday' in WD: print 'Monday is a valid name'
-    if not 'August' in WD: print 'August is not'
+    print('There are', len(WD), 'days per week')
+    if 'Monday' in WD:(print 'Monday is a valid name')
+    if not 'August' in WD: print('August is not')
 
     # some systematic examples:
 
-    print 'WD.Monday.asString:', WD.Monday.asString
-    print 'WD.Monday.asInt:', WD.Monday.asInt
-    print "WD.stringToInt('Monday'):", WD.stringToInt('Monday')
-    print 'WD[2].asString:', WD[2].asString
-    print 'WD.intToString(2):', WD.intToString(2)
-    print "WD['Tuesday'].asInt:", WD['Tuesday'].asInt
-    print 'WD.Saturday > WD.Tuesday:', WD.Saturday > WD.Tuesday
-    print "'Monday' in WD:", 'Monday' in WD
-    print '6 in WD:', 6 in WD
-    print '0 in WD:', 0 in WD
-    print 'WD.each():', WD.each()
-    print 'WD.eachString():', WD.eachString()
+    print('WD.Monday.asString:', WD.Monday.asString)
+    print('WD.Monday.asInt:', WD.Monday.asInt)
+    print("WD.stringToInt('Monday'):", WD.stringToInt('Monday'))
+    print('WD[2].asString:', WD[2].asString)
+    print('WD.intToString(2):', WD.intToString(2))
+    print("WD['Tuesday'].asInt:", WD['Tuesday'].asInt)
+    print('WD.Saturday > WD.Tuesday:', WD.Saturday > WD.Tuesday)
+    print("'Monday' in WD:", 'Monday' in WD)
+    print('6 in WD:', 6 in WD)
+    print('0 in WD:', 0 in WD)
+    print('WD.each():', WD.each())
+    print('WD.eachString():', WD.eachString())
