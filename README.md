@@ -4,6 +4,14 @@ Parse ofx, ofc and qif files and utilities tools
 ## Installation
 
 ```bash
+apt-get install libxml2-dev libxslt1-dev python-dev
+```
+
+```bash
+apt-get install python-lxml
+```
+
+```bash
 pip install ofxutils
 ```
 ## Get started
