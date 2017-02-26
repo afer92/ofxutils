@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name = 'ofxutils',
-	version = '1.0',
+	version = '1.1',
 	author = 'afer92',
 	author_email = 'ferraro.alain@free.fr',
 	
