@@ -15,7 +15,7 @@ setup(name = 'ofxutils',
 	classifiers = [
 		'Development Status :: 4 - Beta',
 		'License :: OSI Approved :: GNU General Public License (GPL)',
-		'Programming Language :: Python :: 3',
-		'Programming Language :: Python :: 3.4',
+		'Programming Language :: Python :: 2',
+		'Programming Language :: Python :: 2.7',
 	],
 )
